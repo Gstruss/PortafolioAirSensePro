@@ -1,0 +1,74 @@
+body {
+    background-color: #f8f9fa;
+    height: 100%;
+    flex: 1;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 2.5rem; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Negrita */
+    color: #08284b; /* Color del texto */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    position: relative; /* Para el pseudo-elemento */
+}
+
+.title::after {
+    content: ""; /* Crea un pseudo-elemento */
+    display: block; /* Para que se muestre como bloque */
+    width: 60px; /* Ancho de la línea */
+    height: 4px; /* Altura de la línea */
+    background: #3674e7; /* Color de la línea */
+    margin: 10px auto; /* Centra la línea */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Cambia a la fuente deseada */
+    font-size: 1.1rem; /* Tamaño de fuente */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+    color: #333; /* Color del texto */
+    background-color: #f8f9fa; /* Color de fondo suave */
+    padding: 15px; /* Espaciado interno */
+    border-left: 4px solid #007bff; /* Línea a la izquierda */
+    margin: 15px 0; /* Espaciado arriba y abajo */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 40px 20px;
+}
+.division {
+    margin: 20px 0;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

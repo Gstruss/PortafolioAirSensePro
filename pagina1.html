@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirSensePro</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1 class="text-center">Portafolio 1 Semestre</h1>
+        <nav>
+            <ul class="text-center">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pagina2.html">Semestre 2</a></li>
+                <li><a href="pagina3.html">Semestre 3</a></li>
+                <li><a href="pagina4.html">Semestre 4</a></li>
+                <li><a href="pagina5.html">Semestre 5</a></li>
+                <li><a href="pagina6.html">Semestre 6</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <section>
+        
+       <h1> Planteamiento del problema</h1> 
+       <h2>Formulación del problema</h2>
+       <p>En particular, la ciudad de Bogotá enfrenta un problema de contaminación ambiental que es 
+        causado principalmente por material particulado proveniente de diversos factores, incluyendo 
+        la combustión de fuentes móviles, el mal estado de las vías y en ciertas épocas del año, 
+        partículas provenientes del transporte de incendios forestales.</p>
+
+        <p>Ahora, para impulsar la reducción de contaminantes en la ciudad, Bogotá ha desarrollado un plan 
+        estratégico para la gestión integral de la calidad del aire al 2030, que la administración regional 
+        firmó en 2021. Incluye estrategias que se adoptarán durante la próxima década y tiene como objetivo 
+        alinear la agenda con las últimas directrices de la OMS sobre contaminantes y sus niveles máximos 
+        permisibles.</p>
+
+        <p>La OMS recomienda nuevos niveles de calidad del aire para 6 contaminantes en sus últimas 
+        directrices: partículas (PM2.5 y PM10), ozono (O3), dióxido de nitrógeno (NO2), dióxido de azufre (SO2)
+        y monóxido de carbono (CO).</p>
+
+        <p>Por tanto, se plantea el siguiente interrogante ¿cómo desarrollar una plataforma que pueda generar 
+        informes de las concentraciones de agentes contaminantes del aire de la ciudad de Bogotá para 
+        posteriores análisis?</p>
+
+        <h2>Objetivo general</h2>
+        <p>Desarrollar una plataforma para consolidar información de la calidad del aire de Bogotá por 
+            medio de herramientas de la era digital.</p>
+
+        <h2>Objetivos específicos</h2>
+        <ol>
+           <p> <li>Identificar los diferentes agentes contaminantes en el aire para seleccionar los 6 de mayor 
+                repercusión en la salud de las personas mediante una búsqueda documental. </li></p>
+            <p><li>Realizar una búsqueda de antecedentes con el fin de fundamentar la información respecto a 
+                plataformas web y aplicaciones móviles de medición y monitoreo que existen. </li></p>
+           <p> <li>
+                Hacer una evaluación y un análisis de datos, tomando como punto de partida la información 
+                presentada por la RMCAB, con el fin de documentar la trazabilidad de la información de las 
+                estaciones y su funcionamiento.</li></p>
+        </ol>
+
+        <h2>Justificación</h2>
+        <p>El presente proyecto busca como objetivo mejorar la plataforma actual de la Red de Monitoreo de la 
+            Calidad del Aire de la ciudad de Bogotá (RMCAB). Ya que la red de monitoreo actual es obsoleta y 
+            no entrega los datos suficientes para tomar las medidas necesarias y promover estrategias que 
+            ayuden a la reducción de la contaminación en la ciudad, para ello, con base en el uso de 
+            herramientas de la era digital, el objetivo es consolidar el soporte tecnológico para elaborar 
+            informes precisos de contaminación con el fin de utilizar esta información para desarrollar 
+            estrategias específicas en Bogotá que permitan la reducción de contaminantes y las enfermedades 
+            causadas por estos. </p>
+
+        <p>Por ello, la aplicación de tecnologías como el Internet de las Cosas (IoT), el análisis de datos y, 
+           por supuesto, el desarrollo de redes que faciliten a los ciudadanos una información más 
+           democrática, permitirá generar informes efectivos sobre el estado de la calidad del aire en la 
+           ciudad. 
+           Finalmente, la plataforma tiene como objetivo fortalecer las medidas ya tomadas y promover la 
+           consolidación del llamado plan estratégico para la gestión integral de la calidad del aire en 
+           Bogotá en 2030 para lograr una mayor igualdad, democracia y cambio en nuestro entorno en beneficio
+           del medio ambiente y la población, para que sea más seguro y amigable.</p>
+        <h2>Alcance</h2>
+        <p>De los diferentes agentes contaminantes que se encuentran en el aire de la ciudad de Bogotá, se 
+            identifican los 6 que tienen mayor afectación a la salud y al medio ambiente, los cuales son 
+            el PM2.5, PM10, ozono, dióxido de nitrógeno, dióxido de azufre y monóxido de carbono. Así pues, 
+            en la búsqueda de información con respecto a plataformas de monitoreo, se consolidan los más 
+            significativos a nivel internacional, nacional y local, sacando como resultado 2 por cada nivel 
+            obteniendo un total de 6 antecedentes de distintos tipos.</p>
+        <p>Finalmente, en el análisis de la plataforma RMCAB, se evalúa la información de las 19 estaciones 
+            que han estado funcionando en la ciudad de Bogotá, midiendo su rendimiento en el transcurso del 
+            semestre, lo que compone la funcionalidad de cada uno de los puntos, su efectividad en cuanto a 
+            los resultados que proyecta y el cómo se muestra la información.</p>
+        
+        <h1>Marco teórico</h1>
+        <p><h2>Agentes contaminantes del aire</h2></p>
+        <h3>PM2.5 Y PM10</h3>
+        <P>
+            PM se refiere a las partículas en suspensión que se encuentran en el aire. PM seguido de un 
+            número hace referencia a todas las partículas de un tamaño máximo determinado (diámetro 
+            aerodinámico). Las partículas de un rango inferior también quedan incluidas. PM0.1 son 
+            partículas en suspensión con un diámetro aerodinámico de hasta 0.1 µm, denominadas partículas 
+            ultrafinas o fracción ultrafina. PM2.5 son partículas en suspensión con un diámetro aerodinámico 
+            de hasta 2.5 µm, denominadas partículas finas o fracción fina (que por definición incluye a las 
+            partículas ultrafinas). PM10 son partículas en suspensión con un diámetro aerodinámico de hasta 
+            10 µm, es decir, comprende las fracciones fina y gruesa (GreenFacts, 2022). 
+        </P>
+        <p>La fracción PM10 comprende tanto las partículas gruesas (PM10-2.5) como las finas (PM2.5); 
+            mientras que la fracción fina (PM2.5) incluye las partículas ultrafinas (PM0.1). Por lo tanto, 
+            las tres fracciones no deben nunca sumarse, ya que PM10 incluye a PM2.5, que, a su vez, incluye 
+            a PM0.1 (GreenFacts, 2022). </p>
+
+        <h3>Ozono</h3>
+        <p>El Ozono (O3) es un gas compuesto por moléculas triatómicas de oxígeno unidas cíclicamente. Su 
+            peso molecular es de 48 Da, posee una gran carga de energía (2O3 = 3O2 + 68.400 cal) y un gran 
+            poder oxidante, sólo superado por el flúor y el persulfato. Es un gas claro de color azul, 
+            inestable que rápidamente desaparece como tal con una vida media de 40 minutos a 20ºC, es 1,6 
+            veces más denso que el oxígeno y 10 veces más soluble en agua (49,0 ml en 100 ml de agua a 0º C) 
+            (53). Otra de las características del ozono gas es su olor (su nombre procede del griego “ozein” 
+            que significa olor). Normalmente se almacena condensado en un líquido azul profundo a muy baja 
+            temperatura (Ireneo P, 2017). </p>
+
+        <p>El ozono se encuentra de forma natural en la atmósfera, sirviendo como capa protectora de la 
+            radiación ultravioleta procedente del sol. Se genera a partir de la energía de la radiación 
+            solar que al incidir sobre las moléculas de oxígeno las descompone en dos especies efímeras 
+            muy reactivas que reaccionan con otras moléculas diatómicas de oxígeno uniéndose a ellas y 
+            dando la forma triatómica que es el ozono (Ireneo P, 2017). </p>
+
+        <p>El ozono (O3), descubierto por Schönbein en 1840, es un gas que en la actualidad está ganando 
+            gran preferencia de utilización tanto en la industria como en el campo de la medicina y 
+            odontología por su poder bactericida, fungicida, virucida y en otras múltiples utilidades. 
+            El ozono es una forma alotrópica del oxígeno (O2), muy inestable, formada por la adición de un 
+            tercer átomo a la molécula de oxígeno, que la torna mucho más activa desde el punto de vista 
+            bio-oxidativo en su acción biológica. En la naturaleza, el ozono es el gas más importante de la 
+            estratosfera. Puede ser generado espontáneamente en tempestades con tormentas eléctricas, y 
+            también por acción de rayos ultravioleta que, al reaccionar con el oxígeno, forman el ozono. 
+            La aplicación tópica del ozono como cicatrizante de heridas sépticas se remonta a la Primera 
+            Guerra Mundial. (Ireneo P, 2017). </p>
+
+        <h3>Dióxido de nitrógeno</h3>
+        <p>El dióxido de nitrógeno generalmente se forma como resultado de la oxidación del óxido nítrico por 
+            el oxígeno del aire: O2 + 2NO → 2NO2. El dióxido de nitrógeno u óxido de nitrógeno (IV)(NO2), 
+            es un compuesto químico formado por los elementos nitrógeno y oxígeno, uno de los principales 
+            contaminantes entre los varios óxidos de nitrógeno. El dióxido de nitrógeno es de color 
+            marrón-amarillento. Se forma como subproducto en los procesos de combustión a altas temperaturas, 
+            como en los vehículos motorizados y las plantas eléctricas. Por ello es un contaminante frecuente 
+            en zonas urbanas (IUPAC, 2005). </p>
+        <p>La formación de NO2 en la atmósfera resulta de la oxidación del NO generado en los cilindros de 
+            los motores de combustión interna por combinación directa de nitrógeno y oxígeno. La mayor 
+            fuente de emisiones de óxidos de nitrógeno es el uso de combustibles fósiles por fuentes fijas 
+            y móviles, aunque también se producen óxidos de nitrógeno durante la fabricación de ácido nítrico, 
+            el uso de explosivos y el proceso de soldadura. Los óxidos de nitrógeno se generan de manera 
+            natural por actividad bacterial, volcánica y por descargas eléctricas atmosféricas; sin embargo, 
+            la cantidad generada es baja en comparación con las emisiones de origen antropogénico. 
+            La permanencia media del dióxido de nitrógeno en la atmósfera es de un día. (IUPAC, 2005). </p>
+
+        <h3>Dióxido de azufre</h3>
+        <p>El dióxido de azufre es un compuesto inorgánico gaseoso formado por azufre (S) y oxígeno (O), 
+            siendo su fórmula química SO2. Es un gas incoloro con olor irritante y sofocante. Además, es 
+            soluble en agua formando soluciones ácidas. Los volcanes lo expulsan hacia la atmósfera durante 
+            las erupciones. Forma parte del ciclo biológico y geoquímico del azufre, pero es producido en 
+            grandes cantidades por ciertas actividades humanas como la refinación del petróleo y la quema 
+            de combustibles fósiles (carbón o diésel, por ejemplo) (Stea M, 2020). </p>
+        <p>El SO2 presente en la atmósfera es dañino para muchas plantas, en el agua afecta los peces y 
+            además es uno de los responsables de la “lluvia ácida” la cual corroe los materiales creados
+            por el ser humano. Las erupciones volcánicas explosivas causan fluctuaciones o variaciones 
+            anuales significativas del SO2 en la atmósfera. Se estima que el 25% del SO2 emitido por los 
+            volcanes es lavado por la lluvia antes de alcanzar la estratosfera (Stea M, 2020).</p>
+        <p>En zonas urbanas e industriales las fuentes humanas predominan. La principal actividad humana 
+            que lo produce es la quema de combustibles fósiles, como el carbón, la gasolina y el diésel. 
+            Otras fuentes humanas son las refinerías de petróleo, plantas químicas y producción de gas 
+            (Stea M, 2020). </p>
+
+        <h3>Monóxido de carbono</h3>
+        <p>El monóxido de carbono, cuya fórmula química es CO, es un gas incoloro y altamente tóxico. 
+            Puede causar la muerte cuando se respira en niveles elevados. Se produce por la combustión 
+            deficiente de sustancias como gas, gasolina, queroseno, carbón, petróleo, tabaco o madera. 
+            Las chimeneas, las calderas, los calentadores de agua o calefactores y los aparatos domésticos 
+            que queman combustible, como las estufas u hornillas de la cocina o los calentadores a queroseno, 
+            también pueden producirlo si no están funcionando bien (Luis E, 2017). </p>
+        <p>Los vehículos con el motor encendido también lo expulsan. Grandes cantidades de CO se forman como 
+            subproducto durante los procesos oxidativos para la producción de productos químicos, lo que hace 
+            necesaria la purificación de los gases residuales. Por otro lado, se están realizando 
+            considerables esfuerzos de investigación para desarrollar nuevos procesos y catalizadores para 
+            la maximización de la producción del producto útil. También se puede encontrar en las atmósferas 
+            de las estrellas de carbono (Luis E, 2017). </p>
+
+        <h3>Lenguajes para el desarrollo web</h3>
+        <h3>Python</h3>
+        <p>Python es un lenguaje de scripting independiente de plataforma y orientado a objetos, preparado 
+            para realizar cualquier tipo de programa, desde aplicaciones Windows a servidores de red o 
+            incluso, páginas web. Es un lenguaje interpretado, lo que significa que no se necesita compilar 
+            el código fuente para poder ejecutarlo, lo que ofrece ventajas como la rapidez de desarrollo e 
+            inconvenientes como una menor velocidad (Álvarez M, 2003).</p>
+        <p>El creador del lenguaje es un europeo llamado Guido Van Rossum. Hace ya más de una década que 
+            diseño Python, ayudado y motivado por su experiencia en la creación de otro lenguaje llamado ABC. 
+            El objetivo de Guido era cubrir la necesidad de un lenguaje orientado a objetos de sencillo uso 
+            que sirviese para tratar diversas tareas dentro de la programación que habitualmente se hacía en 
+            Unix usando C (Álvarez M, 2003). </p>
+        <p>El desarrollo de Python duró varios años, durante los que trabajó en diversas compañías de 
+            Estados Unidos. En el 2000 ya disponía de un producto bastante completo y un equipo de desarrollo 
+            con el que se había asociado incluso en proyectos empresariales. Actualmente trabaja en Zope, una 
+            plataforma de gestión de contenidos y servidor de aplicaciones para el web, por supuesto, 
+            programada por completo en Python (Álvarez M, 2003). </p>
+        
+            <h3>Java</h3>
+            <p>Java es un lenguaje de programación orientado a objetos diseñado específicamente para 
+                permitir a los desarrolladores una plataforma de continuidad. Java difiere de otros paradigmas 
+                de programación - como la programación funcional y lógica - porque los desarrolladores 
+                pueden continuar o actualizar algo que ya han terminado, en lugar de empezar desde cero. 
+                Los objetos mantienen el código ordenado y fácil de modificar cuando es necesario 
+                (Lenovo, 2022). </p>
+            <p>Los programas creados con Java son portátiles porque están ensamblados en bytecode. 
+                Puede ejecutarse en cualquier servidor donde esté instalado Java Virtual Machine (JVM) 
+                (Lenovo, 2022). </p>
+            <p>Sun Microsystems creó Java en 1995 como una plataforma universal que podía ejecutar la misma 
+                aplicación en cualquier máquina independientemente de su sistema operativo. 
+                Java está instalado actualmente en 3 mil millones de dispositivos en todo el mundo 
+                (Lenovo, 2022). </p>
+
+            <h3>PHP</h3>
+            <p>PHP es el acrónimo de Hipertext Preprocesor. Es un lenguaje de programación del lado del 
+                servidor gratuito e independiente de plataforma, rápido, con una gran librería de funciones 
+                y mucha documentación (Álvarez M, 2001). </p>
+            <p>Un lenguaje del lado del servidor es aquel que se ejecuta en el servidor web, justo antes 
+                de que se envíe la página a través de Internet al cliente. Las páginas que se ejecutan en 
+                el servidor pueden realizar accesos a bases de datos, conexiones en red, y otras tareas para 
+                crear la página final que verá el cliente. El cliente solamente recibe una página con el 
+                código HTML resultante de la ejecución de la PHP. Como la página resultante contiene 
+                únicamente código HTML, es compatible con todos los navegadores (Álvarez M, 2001). </p>
+            <p>Fue creado originalmente en 1994 por Rasmus Lerdorf, pero como PHP está desarrollado en 
+                política de código abierto, a lo largo de su historia ha tenido muchas contribuciones de 
+                otros desarrolladores (Álvarez M, 2001). </p>
+
+            <h3>JavaScript</h3>
+            <p>JavaScript es un poderoso lenguaje de programación construido para el navegador Netscape 
+                en 1995. JavaScript es un lenguaje de programación creado para cumplir con las necesidades 
+                del paisaje envolvente del internet. Desde su concepción, ha crecido en popularidad y 
+                utilidad, y ahora está presente no solo en el desarrollo web. JavaScript es la insignia 
+                del desarrollo web interactivo y, como resultado, es universal en esta industria 
+                (Coppola M, 2022). </p>
+            <p>El uso más popular de JavaScript es para el desarrollo web, y es una de las herramientas más 
+                poderosas que un desarrollador puede tener en sus manos. Los desarrolladores usan JavaScript 
+                en esta área para añadir interactividad y funciones que mejoren la experiencia del usuario y 
+                hagan a internet mucho más disfrutable (Coppola M, 2022). </p>
+
+            <h3>Antecedentes del proyecto</h3>
+            <p><h3>A nivel internacional</h3></p>
+            <p>Como primer antecedente a nivel internacional se encuentra el proyecto titulado: “Aplicación de modelos de simulación 
+                de la calidad del aire”, el proyecto modela los procesos físicos y químicos que ocurren en la atmósfera 
+                utilizando modelos de calidad del aire que simulan la evolución de los contaminantes en la misma, 
+                todo ello integrado en un entorno computacional adecuado, utilizando la máquina disponible en el 
+                laboratorio del Grupo de Modelos y Software de Medio Ambiente de la Escuela de Informática de la 
+                Universidad Politécnica de Madrid. (Velázquez M, 2021) </p>
+            <p>En este proyecto se van a utilizar modelos que constituyen el estado del arte en la 
+                modelización de la meteorología y la calidad del aire. Presenta dos núcleos dinámicos, un 
+                sistema de asimilación de datos y una arquitectura de software que admite cómputo paralelo 
+                y extensibilidad del sistema. El modelo sirve una amplia gama de aplicaciones meteorológicas 
+                en escalas de decenas de metros a miles de kilómetros (Velázquez M, 2021) </p>
+            <p>WRF ofrece una previsión operativa de una plataforma flexible y computacionalmente eficiente. 
+                Por último, se realizará la implementación de un sitio web en el cual se mostrarán 
+                los resultados de estas simulaciones. Para el desarrollo de la práctica se va a utilizar 
+                el lenguaje de programación Fortran, compilando los ficheros generados de código con el 
+                compilador GNU Fortran. Una vez se tienen los ejecutables, estos generarán unos ficheros 
+                de datos en formato net.cdf, los cuales serán visualizados mediante la herramienta Matlab 
+                (Velázquez M, 2021) </p>
+            <p>Como segundo antecedente a nivel internacional se encuentra el proyecto titulado: 
+                “Plataforma cloud de monitoreo, adquisición, visualización y predicción de la contaminación 
+                del aire, basada en modelos de redes neuronales artificiales”. En la presente investigación 
+                se propone medir la concentración de las partículas en suspensión que varían entre 2.5 ug y 
+                10 ug también conocidas como PM10 y las partículas en suspensión menores a 2.5 ug conocidas 
+                como PM2.5, en el campus Huachi de la Universidad Técnica de Ambato (Paredes J, 2018). </p>
+                La evaluación consiste en la construcción de una plataforma móvil para la medición de la 
+                concentración de los contaminantes PM10 y PM2.5. Dicha plataforma consta de un sensor de 
+                polvo PPD42, el que registra las partículas de polvo en un tiempo determinado, el 
+                sensor consta de un diodo emisor de luz y un detector de fotodiodos. La plataforma 
+                dispone de un sensor DHT11 para la medición de la temperatura y humedad del ambiente
+                y de un módulo GPS Ublox NEO 6M para el registro del posicionamiento de la plataforma 
+                móvil (Paredes J, 2018). 
+                <p>Por último, se realiza la predicción de las concentraciones de material particulado PM10 
+                    y PM2.5 utilizando Redes Neuronales artificiales. En el presente proyecto se emplea un 
+                    perceptrón multicapa que consta de una capa de entrada, una capa intermedia y una capa 
+                    de salida (Paredes J, 2018).</p>
+                <p>Por último, se realiza la predicción de las concentraciones de material particulado 
+                    PM10 y PM2.5 utilizando Redes Neuronales artificiales. En el presente proyecto se 
+                    emplea un perceptrón multicapa que consta de una capa de entrada, una capa intermedia
+                     y una capa de salida (Paredes J, 2018).</p>
+
+                <h3>A nivel nacional</h3>
+                <p>Como primer antecedente a nivel Nacional se encuentra el proyecto titulado: 
+                    “Desarrollo de un aplicativo para observar el comportamiento de la calidad de aire 
+                    basado en valores de PM2.5 en una red de monitoreo”, el proyecto de investigación 
+                    trata sobre la implementación de un aplicativo app denominado SIMBU, que permite a 
+                    cualquier ciudadano observar el comportamiento de la calidad de aire basado en valores 
+                    de PM2.5 en una red de monitoreo en 10 puntos portátiles del área metropolitana de 
+                    Bucaramanga, Colombia, en especial en la comuna centro de la ciudad, donde se realizará 
+                    mediciones continuas con dispositivos electrónicos de bajo costo, con base en tecnología 
+                    Arduino y que se están diseñando y desarrollando en la Universidad de Santander 
+                    (Walter L, 2021).  </p>
+                <p>La metodología del trabajo comprende la identificación de los puntos estratégicos 
+                    mediante sistemas de información geográfica, el diseño y desarrollo de las herramientas 
+                    electrónicas de medición de PM2.5, mediciones de PM2.5 con validación mediante equipos 
+                    convencionales Hi-Vol, el desarrollo de la app SIMBU y la aplicación del seguimiento del 
+                    monitoreo, como se ve en la Figura 1:</p>
+                <img src="C:\Users\Danna\Downloads\figura1.webp" alt="figura1">
+                <p>El impacto esperado era tener un monitoreo continuo de PM2.5 en la ciudad, para la 
+                    planeación y ejecución de acciones de mejoramiento y control de calidad del aire que 
+                    propendan por una mayor calidad de vida y salud adecuada de la población (Walter L, 2021). </p>
+                <p>Como segundo antecedente a nivel nacional se encuentra el proyecto titulado: “Aplicativo 
+                    web para el monitoreo y la gestión de la información de la calidad del aire en el 
+                    municipio de Segovia, Antioquia”, este proyecto busca desarrollar un aplicativo web 
+                    para el monitoreo y gestión de la calidad del aire en el municipio de Segovia, Antioquia, 
+                    con el propósito de capturar datos en tiempo real, para posteriormente facilitar la toma 
+                    de decisiones apoyados en el procesamiento de los datos y visualizaciones con el usuario 
+                    final (Álvarez D, 2020). </p>
+                <p>En este proyecto el aplicativo se desarrolló basado en los principios de la metodología 
+                    Scrum, permitiendo al usuario final acceder e interpretar los datos de una forma amigable, 
+                    el resultado del aplicativo se muestra en la Figura 2: </p>
+                <img src="C:\Users\Danna\Downloads\figura2.webp" alt="figura2">
+
+                <h3>A nivel local</h3>
+                <p>Como primer antecedente a nivel Local se tiene la plataforma de la Red de Monitoreo de 
+                    Calidad del Aire de Bogotá (RMCAB). Este sistema se compone de 19 estaciones de medición 
+                    fijas automáticas y una estación móvil. Las estaciones de monitoreo están conformadas por 
+                    monitores, analizadores y sensores automáticos que recolectan datos cada hora sobre el 
+                    estado de la calidad del aire en Bogotá. Esta información es almacenada y enviada vía 
+                    internet hacia el servidor central de la Secretaría de Ambiente para posteriormente 
+                    ser publicada en tiempo real en la página web de la entidad, como se evidencia en la 
+                    Figura 3:</p>
+                    <img src="C:\Users\Danna\Downloads\figura3.webp" alt="figura3">
+                <p>La RMCAB ha llevado un registro de las concentraciones de ciertos contaminantes desde 1997, 
+                    donde en las estaciones se monitorean los siguientes aspectos (Secretaría de Ambiente, 
+                    2022b):
+                    <p>-Contaminantes: óxidos de nitrógeno (NOX), ozono (O3), monóxido de carbono (CO), 
+                        dióxido de azufre (SO2) y material particulado (PM2.5 y PM10). </p>
+                    <p>-Meteorológicos: Precipitación, velocidad y dirección del viento, humedad relativa, 
+                        presión atmosférica y radiación. </p>
+                    <p>Desde el 2018, la RMCAB se rige por lo establecido en la Resolución 2254 de 2017 del 
+                        Ministerio de Ambiente y Desarrollo Sostenible, que establece la norma de calidad del 
+                        aire o nivel de inmisión y adopta disposiciones para la gestión de este recurso en 
+                        el territorio nacional (Secretaría de Ambiente, 2022b).</p>
+                    <p>Como segundo antecedente a nivel local se encuentra el proyecto titulado: 
+                        “Estrategia piloto de divulgación de la plataforma web SISAIRE – IDEAM para 
+                        el fortalecimiento del PRAE del Colegio Nacional Nicolás Esguerra de Bogotá D.C”. 
+                        La contaminación atmosférica es un problema ambiental que reviste relevancia, 
+                        debido a la afectación que le causa a la salud de la población; es por esto que 
+                        cobra importancia el hecho de que las nuevas generaciones conozcan las herramientas 
+                        con las que se cuenta en el país para conocer el estado del recurso aire y que de 
+                        esta manera ejerzan una verdadera gobernanza de la calidad del aire (Hernández A, 2022). </p>
+                    <p>En este sentido, el Instituto de Hidrología, Meteorología y Estudios Ambientales 
+                        Ideam, administra el Subsistema de Información sobre Calidad del Aire SISAIRE, 
+                        plataforma web que es la principal fuente de información a nivel nacional, sobre el 
+                        estado de este recurso. Con base en la caracterización de usuarios del citado 
+                        subsistema elaborada por el Ideam, se evidenció que la población menor de 18 años 
+                        no lo conoce (Hernández A, 2022). </p>
+                    <p>Así las cosas, surge la iniciativa de desarrollar una estrategia piloto de divulgación 
+                        de esta plataforma web, para contribuir con el fortalecimiento del Proyecto de 
+                        Educación Ambiental Escolar (PRAE) del Colegio Nacional Nicolás Esguerra de Bogotá 
+                        (Hernández A, 2022). </p>
+                    <h1>Metodología</h1>
+                    <h3>Tipo de investigación</h3>
+                    <p>El proyecto tiene como enfoque de investigación un enfoque tecnológico aplicado, 
+                        ya que este enfoque genera conocimientos o métodos dirigidos al sector productivo 
+                        de bienes y servicios, ya sea con el fin de mejorarlo y hacerlo más eficiente, 
+                        o con el fin de obtener productos nuevos y competitivos en dicho sector. </p>
+                    <h3>Diseño metodologico</h3>
+                    <h3>Fase 1</h3>
+                    <p>En la primera fase, que para el proyecto abarcará todo el primer y segundo semestre 
+                        se hará una búsqueda documental sobre agentes contaminantes, específicamente los que 
+                        afectan la calidad del aire. Una búsqueda documental se hace a partir de varios 
+                        pasos:</p>
+                    <p>Primero, se hace una selección del material a investigar que pueda ser útil para el 
+                        proceso. Segundo, se clasifica el material y se separan los que son poco necesarios 
+                        de los que son importantes para el proyecto. Tercero, se compara el material 
+                        seleccionado y se obtiene información textual con el objetivo de sustentar teorías 
+                        e interpretaciones. Cuarto, se analiza la información sobre el fenómeno de estudio. 
+                        Quinto y último, se cierra el tema especificando los puntos que se quería demostrar 
+                        con conclusiones, que en el caso de proyecto fueron los 6 contaminantes seleccionados 
+                        (PM2.5, PM10, ozono, dióxido de nitrógeno, dióxido de azufre y monóxido de carbono). </p>
+                    <p>Por otro lado, se hará una búsqueda de antecedentes de plataformas de monitoreo. 
+                       Las plataformas digitales o plataformas virtuales, son espacios en Internet que 
+                       permiten la ejecución de diversas aplicaciones o programas en un mismo lugar para 
+                       satisfacer distintas necesidades. Monitoreo es el proceso sistemático de recolectar, 
+                       analizar y utilizar información para hacer seguimiento al progreso de un programa a 
+                       favor de la consecución de sus objetivos, y para guiar las decisiones de gestión. </p>
+                    <p>Por último, se hará un análisis de la actual red de monitoreo de la calidad del aire 
+                        de Bogotá (RMCAB) para hacer una posterior evaluación de su efectividad. 
+                        Este análisis se hace a partir de medir cada uno de los puntos de focalización 
+                        y su funcionalidad en cuanto a los resultados que proyecta y el cómo se muestra 
+                        la información.</p>
+                    <h1>Desarrollo</h1>
+                    <h3>Actividades</h3>
+                    <p>Para el desarrollo de las actividades propuestas para este semestre se 
+                        realizó primero, la búsqueda y definición de los 6 agentes contaminantes que se 
+                        van a monitorear para medir la calidad del aire en la ciudad de Bogotá. Segundo, 
+                        se realizó la búsqueda de antecedentes de distintas plataformas o aplicaciones de 
+                        monitoreo, en especial de la calidad del aire, para esto se hallaron 6 antecedentes 
+                        principales, 2 a nivel internacional, 2 a nivel nacional y 2 a nivel local, 
+                        encontrándose en este último la RMCAB que es el principal antecedente que se tiene 
+                        como referencia del proyecto.</p>
+                    <p>Además de esto, avanzando en el diseño del proyecto se tiene el Modelo Relacional 
+                        de lo que será la base de datos de la plataforma en MySQL, como se evidencia en la 
+                        Figura 4, además de una muestra en la Figura 5. También el Modelo Entidad Relación 
+                        Figura 6:</p>
+                        <div class="galeria">
+                            <img src="C:\Users\Danna\Downloads\figura4.webp" alt="figura4">
+                            <img src="C:\Users\Danna\Downloads\figura5.webp" alt="figura5">
+                            <img src="C:\Users\Danna\Downloads\figura6.webp" alt="figura6">
+                        </div>
+                    <h3>Cuadros de correspondencia</h3>
+                    <h3>Gestión del tiempo</h3>
+                    <img src="C:\Users\Danna\Downloads\cuadro1.webp" alt="cuadro1">
+                    <img src="C:\Users\Danna\Downloads\cuadro2.webp" alt="cuadro2">
+                    <h3>Gestión de costos</h3>
+                    <img src="C:\Users\Danna\Downloads\cuadro3.webp" alt="cuadro3">
+                    <h3>Gestión de comunicaciones</h3>
+                    <img src="C:\Users\Danna\Downloads\cuadro4.webp" alt="cuadro4">
+                    <h3>Gestión de recurso humano</h3>
+                    <img src="C:\Users\Danna\Downloads\cuadro5.webp" alt="cuadro5">
+                    <h3>Gestión de riesgos</h3>
+                    <img src="C:\Users\Danna\Downloads\cuadro6.webp" alt="cuadro6">
+                    <h3>EDT</h3>
+                    <img src="C:\Users\Danna\Downloads\cuadro7.webp" alt="cuadro7">
+                    <h3>Requerimientos funcionales</h3>
+                    <ol>
+                        <li>Mostrar un mapa de la ciudad de Bogotá y sus alrededores.</li>
+                        <li>En el mapa se muestren los puntos de focalización.</li>
+                        <li>Cada punto debe mostrar la información en tiempo real del contaminante que desea 
+                            visualizar.</li>
+                        <li>Se debe desplegar una pestaña con los distintos tipos de contaminantes para que 
+                            el usuario elija cual quiere visualizar.</li>
+                        <li>En otra pestaña se muestran los niveles de contaminación según su color, donde 
+                            verde es favorable, amarillo es moderado, naranja es regular, roja es malo y 
+                            morado es peligroso.</li>
+                        <li>En cada punto de focalización según el contaminante se debe mostrar además 
+                            el color del estado en tiempo real.</li>
+                        <li>Se debe poder interactuar con el mapa.</li>
+                        <li>Si se elige un punto, este abre una pestaña donde se visualice la información 
+                            por horas de forma estadística y se pueda descargar cierta información.</li>
+                        <li>Se debe poder cambiar o traducir la plataforma a otro idioma (inglés).</li>
+                        <li>Otra pestaña con tablas dinámicas de la información de cada punto de focalización 
+                            según el contaminante.</li>
+                    </ol>
+                        <h3>Requerimientos tecnicos</h3>
+                        <ol>
+                            <li>Se van a usar bases de datos soportados por MYSQL que almacenarán la 
+                                información en tiempo real da cada contaminante según su punto.</li>
+                            <li>El diseño completo de la plataforma será creado a partir del lenguaje de 
+                                programación PYTHON, usando PHP y HTML para la parte visual del desarrollo 
+                                de la plataforma web.</li>
+                            <li>Para el diseño de las estadísticas se va a usar EXCEL.</li>
+                            <li>El diseño del mapa será aportado por Google maps.</li>
+                        </ol>
+                            <h3>Matriz DOFA</h3>
+                            <img src="C:\Users\Danna\Downloads\cuadro8.png" alt="cuadro8">
+                            <div class="documentos">
+                            <iframe src="C:\Users\Danna\Downloads\Presentación-PSCAB.pdf" width="50%" height="100px"></iframe>
+
+                            <embed src="C:\Users\Danna\Downloads\Documento-Proyecto-PSCAB.pdf" type="application/pdf" width="50%" height="600px" />
+                            </div>
+
+                            </form>
+    </section>
+
+
+    <footer>
+        &copy; 2024 AirSensePro. Todos los derechos reservados.
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
