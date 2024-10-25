@@ -9,7 +9,38 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <style>
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .otro {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        .centrar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
 
@@ -29,29 +60,28 @@
     </div>
 </header>
 
-    <section>
-        
-        <h3>Documento del proyecto y plan de trabajo</h3>
-        <div class="otro">
-            <iframe src="doc/Documento_Proyecto_AirSensePro_Corregido.pdf" frameborder="0"></iframe>
-        
-        <iframe src="doc/Plan_2023-2_EMS.pdf" frameborder="0"></iframe>
-        </div>
-        <h2>Mockups</h2>
-        <div class="centrar">
-            <img src="img/Mockupreal.png" alt="Mockupreal">
-            <img src="img/mockup2.jpg" alt="mockup2">
-            <img src="img/mockup3.jpg" alt="mockup3">
-        </div>
-    </section>
+<section class="container my-4">
+    <h3>Documento del proyecto y plan de trabajo</h3>
+    <div class="otro">
+        <iframe src="doc/Documento_Proyecto_AirSensePro_Corregido.pdf"></iframe>
+        <iframe src="doc/Plan_2023-2_EMS.pdf"></iframe>
+    </div>
+    
+    <h2>Mockups</h2>
+    <div class="centrar">
+        <img src="img/Mockupreal.png" alt="Mockupreal">
+        <img src="img/mockup2.jpg" alt="mockup2">
+        <img src="img/mockup3.jpg" alt="mockup3">
+    </div>
+</section>
 
-    <footer>
-        &copy; 2024 AirSensePro. Todos los derechos reservados.
-    </footer>
-    <!-- Bootstrap JS and dependencies -->
+<footer>
+    &copy; 2024 AirSensePro. Todos los derechos reservados.
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
