@@ -9,7 +9,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <style>
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .poster, .segundo {
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+    </style>
 </head>
 <body>
 
@@ -29,53 +47,54 @@
     </div>
 </header>
 
-    <section>
-        <h2>Objetivos específicos</h2>
-        <ol>
-            <li>Realizar y socializar una encuesta para la comunidad San bonaventuriana sobre el 
-                conocimiento respecto a la calidad del aire en Bogotá y la actual plataforma de la 
-                Red de monitoreo de la calidad del aire de Bogotá.</li>
-            <li>Crear un MockUp inicial del diseño pensado para la plataforma del Proyecto.</li>
-            <li>Actualizar e implementar la Base de Datos para mostrar la toma de información.</li>
-        </ol>
-        <h2>Encuesta</h2>
-        <a href="https://forms.office.com/r/MYTbKsHkjN" target="_blank">Encuesta AirSensePro</a>
-        <img src="img/codigoqr.webp" alt="codigoqr">
-        <h2>Mockup</h2>
-        <img src="img/mockup1.webp" alt="mockup1">
-        <h2>Cambios realizados</h2>
-        <p>Para este Semestre se decidieron hacer algunos cambios importantes para logar tener un mejor 
-            desarrollo del Proyecto Integrador, los cambios son:</p>
-        <p>-Cambio del Objetivo General de "Desarrollar una plataforma para consolidar información de la 
-            calidad del aire de Bogotá por medio de herramientas de la era digital" a "Desarrollar 
-            una plataforma para visualizar información meteorológica de Bogotá por medio de herramientas 
-            digitales"</p>
-        <p>-Cambio de la pregunta problema a: "¿Cómo desarrollar una plataforma que pueda generar informes 
-            meteorológicos de la ciudad de Bogotá para una mejor visualización de la información?"</p>
-        <p>-Cambio del Título del Proyecto a "Desarrollo de una plataforma para la visualización de la 
-            información meteorológica de la EMS"</p>
-        <p>-Cambio del nombre del Proyecto a "EMS" (Estación Meteorológica del Semillero de investigación 
-            en tecnologías aplicadas)</p>
-        <p>-Cambio del diseño de la BD y todo lo relacionado:</p>
-        <h2>MER</h2>
-        <img src="img/cuadro9.webp" alt="cuadro9">
-        <h3>Diccionario de datos</h3>
-        <img src="img/diccionario.webp" alt="diccionario">
-        <div class="segundo">
-            <iframe src="doc/CÓDIGO-BASE-DE-DATOS.pdf" frameborder="0"></iframe>
-            <iframe src="doc/CÓDIGO-CONSULTAS-MULTITABLA.pdf" frameborder="0"></iframe>
-            <iframe src="doc/CÓDIGO-PROCEDIMIENTOS-ALMACENADOS.pdf" frameborder="0"></iframe>
-        </div>
-        <h3>Poster proyecto EMS</h3>
-        <div class="poster">
-        <iframe src="doc/Póster_ProyectoEMS.pdf" frameborder="0"></iframe>
-        </div>
-    </section>
+<section class="container my-4">
+    <h2>Objetivos específicos</h2>
+    <ol>
+        <li>Realizar y socializar una encuesta para la comunidad San bonaventuriana sobre el conocimiento respecto a la calidad del aire en Bogotá y la actual plataforma de la Red de monitoreo de la calidad del aire de Bogotá.</li>
+        <li>Crear un MockUp inicial del diseño pensado para la plataforma del Proyecto.</li>
+        <li>Actualizar e implementar la Base de Datos para mostrar la toma de información.</li>
+    </ol>
+    
+    <h2>Encuesta</h2>
+    <a class="btn btn-primary mb-3" href="https://forms.office.com/r/MYTbKsHkjN" target="_blank">Encuesta AirSensePro</a>
+    <img src="img/codigoqr.webp" alt="codigoqr" class="img-fluid mb-3">
+    
+    <h2>Mockup</h2>
+    <img src="img/mockup1.webp" alt="mockup1" class="img-fluid mb-3">
+    
+    <h2>Cambios realizados</h2>
+    <p>Para este Semestre se decidieron hacer algunos cambios importantes para lograr tener un mejor desarrollo del Proyecto Integrador, los cambios son:</p>
+    <ul>
+        <li>Cambio del Objetivo General de "Desarrollar una plataforma para consolidar información de la calidad del aire de Bogotá por medio de herramientas de la era digital" a "Desarrollar una plataforma para visualizar información meteorológica de Bogotá por medio de herramientas digitales".</li>
+        <li>Cambio de la pregunta problema a: "¿Cómo desarrollar una plataforma que pueda generar informes meteorológicos de la ciudad de Bogotá para una mejor visualización de la información?".</li>
+        <li>Cambio del Título del Proyecto a "Desarrollo de una plataforma para la visualización de la información meteorológica de la EMS".</li>
+        <li>Cambio del nombre del Proyecto a "EMS" (Estación Meteorológica del Semillero de investigación en tecnologías aplicadas).</li>
+        <li>Cambio del diseño de la BD y todo lo relacionado.</li>
+    </ul>
+    
+    <h2>MER</h2>
+    <img src="img/cuadro9.webp" alt="cuadro9" class="img-fluid mb-3">
+    
+    <h3>Diccionario de datos</h3>
+    <img src="img/diccionario.webp" alt="diccionario" class="img-fluid mb-3">
+    
+    <div class="segundo mb-3">
+        <iframe src="doc/CÓDIGO-BASE-DE-DATOS.pdf"></iframe>
+        <iframe src="doc/CÓDIGO-CONSULTAS-MULTITABLA.pdf"></iframe>
+        <iframe src="doc/CÓDIGO-PROCEDIMIENTOS-ALMACENADOS.pdf"></iframe>
+    </div>
+    
+    <h3>Poster proyecto EMS</h3>
+    <div class="poster mb-3">
+        <iframe src="doc/Póster_ProyectoEMS.pdf"></iframe>
+    </div>
+</section>
 
-    <footer>
-        &copy; 2024 AirSensePro. Todos los derechos reservados.
-    </footer>
-    <!-- Bootstrap JS and dependencies -->
+<footer>
+    &copy; 2024 AirSensePro. Todos los derechos reservados.
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
