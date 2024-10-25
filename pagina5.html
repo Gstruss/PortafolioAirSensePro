@@ -9,7 +9,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <style>
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 400px; /* Ajusta la altura según sea necesario */
+            border: none;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
 
@@ -29,26 +47,28 @@
     </div>
 </header>
 
-    <section>
-        <h3>Plantilla FODA</h3>
-        <div class="arq2">
+<section class="container my-4">
+    <h3>Plantilla FODA</h3>
+    <div class="arq2">
         <iframe src="doc/Plantilla FODA Proyecto.pdf" frameborder="0"></iframe>
-        
-        </div>
-        <h3>Tareas pendientes</h3>
-        <div class="arq3">
-            <iframe src="doc/PLANTILLA DE TAREAS PENDIENTES GRUPO AIRSENSEPRO.pdf" frameborder="0"></iframe>
-        </div>
-        <h3>Documento de arquitectura</h3>
-        <div class="arq">
+    </div>
+    
+    <h3>Tareas pendientes</h3>
+    <div class="arq3">
+        <iframe src="doc/PLANTILLA DE TAREAS PENDIENTES GRUPO AIRSENSEPRO.pdf" frameborder="0"></iframe>
+    </div>
+    
+    <h3>Documento de arquitectura</h3>
+    <div class="arq">
         <iframe src="doc/Doc_Arq.pdf" frameborder="0"></iframe>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        &copy; 2024 AirSensePro. Todos los derechos reservados.
-    </footer>
-    <!-- Bootstrap JS and dependencies -->
+<footer>
+    &copy; 2024 AirSensePro. Todos los derechos reservados.
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
