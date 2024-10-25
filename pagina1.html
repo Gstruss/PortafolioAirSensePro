@@ -9,10 +9,37 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <style>
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px; /* Espaciado para la sección */
+        }
+        img {
+            max-width: 100%; /* Hace que las imágenes sean responsivas */
+            height: auto; /* Mantiene la relación de aspecto */
+        }
+        .galeria, .documentos {
+            display: flex;
+            flex-wrap: wrap; /* Permite que las imágenes se ajusten en línea */
+            justify-content: center; /* Centra las imágenes */
+            margin: 20px 0; /* Espaciado superior e inferior */
+        }
+        .documentos iframe, .documentos embed {
+            width: 100%; /* Ajusta el ancho del documento */
+            max-width: 600px; /* Establece un ancho máximo */
+            height: 400px; /* Altura fija */
+            margin: 10px; /* Espaciado entre documentos */
+        }
+    </style>
 </head>
 <body>
-
 <header>
     <div class="container">
         <h1 class="text-center">Portafolio 1 Semestre</h1>
@@ -465,7 +492,7 @@
                             <embed src="doc/Documento-Proyecto-PSCAB.pdf" type="application/pdf" width="50%" height="600px" />
                             </div>
 
-                            </form>
+                        </form>
     </section>
 
 
