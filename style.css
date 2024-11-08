@@ -1,74 +1,108 @@
+/* Fondo oscuro para todo el cuerpo de la página */
 body {
-    background-color: #f8f9fa;
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
     height: 100%;
     flex: 1;
     display: grid;
-    min-height: 100dvh;
+    min-height: 100vh;
     grid-template-rows: auto 1fr auto;
+    font-family: 'Roboto', sans-serif; /* Fuente más moderna */
 }
+
+/* Estilo del encabezado */
 header {
-    background-color: #007bff;
-    color: white;
+    background-color: #1a1a1a; /* Fondo más oscuro para el header */
+    color: #e0e0e0; /* Texto claro */
     padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
 }
 
+/* Título principal */
 .title {
-    font-size: 2.5rem; /* Tamaño de fuente más grande */
-    font-weight: bold; /* Negrita */
-    color: #08284b; /* Color del texto */
-    text-transform: uppercase; /* Texto en mayúsculas */
-    letter-spacing: 2px; /* Espaciado entre letras */
-    margin-bottom: 20px; /* Espacio debajo del título */
-    position: relative; /* Para el pseudo-elemento */
+    font-size: 3rem; /* Aumentar tamaño */
+    font-weight: bold;
+    color: #fff; /* Blanco para mayor contraste */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
+/* Línea debajo del título */
 .title::after {
-    content: ""; /* Crea un pseudo-elemento */
-    display: block; /* Para que se muestre como bloque */
-    width: 60px; /* Ancho de la línea */
-    height: 4px; /* Altura de la línea */
-    background: #3674e7; /* Color de la línea */
-    margin: 10px auto; /* Centra la línea */
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #6200ea; /* Color vibrante para la línea */
+    margin: 10px auto;
+    border-radius: 2px; /* Bordes redondeados en la línea */
 }
 
+/* Estilo de los párrafos */
 p {
-    font-family: 'Roboto', sans-serif; /* Cambia a la fuente deseada */
-    font-size: 1.1rem; /* Tamaño de fuente */
-    line-height: 1.6; /* Altura de línea para mejor legibilidad */
-    color: #333; /* Color del texto */
-    background-color: #f8f9fa; /* Color de fondo suave */
-    padding: 15px; /* Espaciado interno */
-    border-left: 4px solid #007bff; /* Línea a la izquierda */
-    margin: 15px 0; /* Espaciado arriba y abajo */
-    border-radius: 5px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-size: 1.2rem; /* Aumentar tamaño de fuente para mayor legibilidad */
+    line-height: 1.7;
+    color: #e0e0e0;
+    background-color: #1d1d1d; /* Fondo oscuro para los párrafos */
+    padding: 15px;
+    border-left: 4px solid #6200ea; /* Línea a la izquierda con color vibrante */
+    margin: 15px 0;
+    border-radius: 8px; /* Bordes más redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra más fuerte */
 }
 
-
+/* Estilo del menú de navegación */
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    text-align: center;
 }
+
 nav ul li {
-    display: inline;
-    margin-right: 15px;
+    display: inline-block;
+    margin-right: 20px;
 }
+
 nav a {
-    color: white;
+    color: #ffffff;
+    font-size: 1.1rem;
     text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
+
+/* Efecto de hover en los enlaces */
+nav a:hover {
+    background-color: #6200ea;
+    color: #fff;
+}
+
+/* Sección principal */
 section {
     padding: 40px 20px;
 }
+
+/* Estilo de la división dentro de la sección */
 .division {
     margin: 20px 0;
 }
+
+/* Estilo del pie de página */
 footer {
-    background-color: #343a40;
-    color: white;
+    background-color: #6200ea4d;
+    color: #e0e0e0;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     position: relative;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2); /* Sombra en la parte inferior */
+}
+
+h1 {
+    color: #6200eaa8;
 }
